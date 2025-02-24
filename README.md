@@ -1,4 +1,4 @@
-# 🚀 Landing Page - Educational Project
+# 🚀 Landing Page - Educational Project - In Progress
 
 This repository contains the development of a **modern and responsive Landing Page**, designed to promote an introductory technology course. The goal of this project is to apply **best programming practices**, following principles of **clean code, modular organization, and accessibility**.
 
@@ -32,11 +32,6 @@ This project focuses on **enhancing front-end development skills**, ensuring bes
 ✔️ **Proper version control** with Git and GitHub  
 ✔️ **Descriptive commit messages**  
 
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for more details.
 
 ---
 
