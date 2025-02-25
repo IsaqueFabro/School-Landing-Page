@@ -1,3 +1,9 @@
 *{
     background-color: black;
+    color: aliceblue;
+}
+
+#logo{
+    margin-top: 75px;
+    margin-left: 50px;
 }
