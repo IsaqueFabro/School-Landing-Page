@@ -1,6 +1,5 @@
 *{
-    background-image: url(./images/fundo-menusuperior.svg);
-    color: aliceblue;
+    margin: 0px;
     font-family: 'inter';
 }
 
@@ -19,3 +18,11 @@
     margin-top: 35px;
 }
 
+#menu-superior{
+    background-image: url(./images/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menu-informacional{
+    
+}
