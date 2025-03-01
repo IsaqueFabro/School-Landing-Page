@@ -22,13 +22,14 @@
 /* Estiliza o menu superior */
 #menu-superior{
     background-image: url(./images/fundo-menusuperior.svg); /* Define imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
     color: aliceblue; /* Define a cor do texto */
+    padding-bottom: 100px;
 }
 
 /* Estiliza o menu informacional */
 #menu-informacional{
     background-color: #EAECE5; /* Cor de fundo */
-    padding: 100px; /* Espaçamento interno */
     display: grid; /* Usa o modelo de grid */
     grid-auto-flow: column; /* Organiza os elementos em colunas */
     columns: auto; /* Ajusta as colunas */
@@ -44,4 +45,27 @@
 .textoinformacional{
     display: flex; /* Usa flexbox para alinhamento */
     align-items: center; /* Centraliza verticalmente */
+}
+
+/* Seção do vídeo */
+#secao-video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+/* Estiliza o título do vídeo */
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+/* Estiliza o texto do vídeo */
+#texto-video {
+    color: #383838;
+}
+
+/* Define o espaçamento do vídeo */
+#video {
+    margin: 50px 25px 50px 100px;
 }

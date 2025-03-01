@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!-- Importação do arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
-    <!--- Titulo -->>
+    <!--- Titulo -->
     <title>Landing Page</title>
 </head>
 <body>
@@ -52,12 +52,36 @@
         </p>
     </div>
 
-    <!-- Seção menu de video apresentacao -->
-    <div>
+    <!-- Seção do vídeo de apresentação -->
+    <div id="secao-video">
+        <!-- Incorporação do vídeo do YouTube -->
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" 
+            title="DNC - A escola inovadora que forma profissionais de alta perfomance" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
 
+        <!-- Seção de texto ao lado do vídeo -->
+        <div>
+            <h1 id="titulo-video">
+                Aprenda com especialistas e <br>
+                comece seu primeiro projeto
+            </h1> 
+            <br><br>
+
+            <p id="texto-video">
+                Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos. <br><br>
+
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.
+            </p>
+        </div>
     </div>
 
-    <!-- Importação arquivo JS -->
+    <!-- Importação do arquivo JavaScript -->
     <script src="app.js"></script>
 </body>
 </html>
