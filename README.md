@@ -1,6 +1,6 @@
 # 🚀 Landing Page - Educational Project - In Progress
 
-This repository contains the development of a **modern and responsive Landing Page**, designed to promote an introductory technology course. The goal of this project is to apply **best programming practices**, following principles of **clean code, modular organization, and accessibility**.
+This repository contains the development of a **modern and responsive Landing Page**. The goal of this project is to apply **best programming practices**, following principles of **clean code, modular organization, and accessibility**.
 
 ---
 
