@@ -6,25 +6,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <!-- Importação do arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
     <!--- Titulo -->
     <title>Landing Page</title>
 </head>
 <body>
-    <!-- Seção do menu superior -->
+    <!-- menu superior -->
     <div id="menu-superior">
-        <!-- Logotipo com link para o site da DNC -->
+        <!-- logotipo com link para o site da DNC -->
         <a href="https://www.escoladnc.com.br/"> 
             <img src="./images/logo.svg" id="logo" alt="Error"> 
         </a>
 
-        <!-- Título principal da página -->
+        <!-- titulo principal da pagina -->
         <h1 id="superior-title">
             De os primeiros passos da <br> sua carreira de tecnologia
         </h1>
 
-        <!-- Texto descritivo da página -->
+        <!-- texto descritivo da pagina -->
         <p id="superior-text">
             Inscreva-se no curso gratuito de Introdução à <br>
             Tecnologia da DNC School e aprenda os principais <br>
@@ -32,18 +31,18 @@
         </p>
     </div>
 
-    <!-- Seção informacional sobre o curso -->
+    <!-- informacoes sobre o curso -->
     <div id="menu-informacional">
         
-        <!-- Informações sobre o curso com ícones -->
+        <!-- informacoes sobre o curso com icones -->
         <p class="textoinformacional">
             <img src="./icones/camera.svg" class="icone" id="camera" alt="Error"> 
-            Certificado de conclusão 
+            Certificado de conclusao 
         </p>
         
         <p class="textoinformacional">
             <img src="./icones/certificado.svg" class="icone" id="certificado" alt="Error"> 
-            4 horas de conteúdo
+            4 horas de conteudo
         </p>
 
         <p class="textoinformacional">
@@ -52,9 +51,9 @@
         </p>
     </div>
 
-    <!-- Seção do vídeo de apresentação -->
+    <!-- video de apresentacao -->
     <div id="secao-video">
-        <!-- Incorporação do vídeo do YouTube -->
+        <!-- incorporacao do video do YouTube -->
         <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" 
             title="DNC - A escola inovadora que forma profissionais de alta perfomance" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
@@ -62,7 +61,7 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
 
-        <!-- Seção de texto ao lado do vídeo -->
+        <!-- texto ao lado do video -->
         <div>
             <h1 id="titulo-video">
                 Aprenda com especialistas e <br>
@@ -71,19 +70,19 @@
             <br><br>
 
             <p id="texto-video">
-                Conheça o processo de desenvolvimento e entenda como utilizar <br>
-                os principais métodos e ferramentas da área para resolver <br>
+                Conheca o processo de desenvolvimento e entenda como utilizar <br>
+                os principais metodos e ferramentas da area para resolver <br>
                 problemas complexos. <br><br>
 
-                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                Conquiste seu certificado e desenvolva um projeto pratico para <br>
                 aplicar seus conhecimentos.
             </p>
         </div>
     </div>
 
-    <!-- CARROSEL -->
+    <!-- carrosel de alunos -->
     <div id="carrosel">
-        <h1 id="titulo-carrosel"> Mais de 500 alunos já iniciaram seus estudos </h1>
+        <h1 id="titulo-carrosel"> Mais de 500 alunos ja iniciaram seus estudos </h1>
             <div id="cards-carrosel">
                 <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="./setas/seta-esquerda.svg" alt="Error">
                 <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="Error">
@@ -93,20 +92,21 @@
          </div>
     </div>
 
-    <!-- FORMULARIO -->
+    <!-- formulario de inscricao -->
      <div id="formulario">
         <h1 id="titulo-formulario"> Comece agora mesmo e dê o próximo passo da sua carreira </h1> <br> <br>
             <div id="inputs">
-                <form id="form">
-                    <input type="text" id="nome" class="inputs" placeholder="Nome"> <br><br>
-                    <input type="email" id="email" class="inputs" placeholder="E-mail"> <br><br>
-                    <input type="tel" id="telefone" class="inputs" placeholder="Telefone"> <br><br>
+                <form id="form" action="https://api.sheetmonkey.io/form/ojNrqhubGqJVjPMYsBXx4h" method="post">
+                    <input type="text" id="nome" placeholder="Nome" name="Name" required> <br><br>
+                    <input type="email" id="email" placeholder="E-mail" name="Email" required> <br><br>
+                    <input type="tel" id="telefone" placeholder="Telefone" name="Phone"> <br><br>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                    <button type="submit"> Acesse a ementa gratis </button>
                 </form>
             </div>
-        <button id="botao"> Acesse a ementa grátis </button>
      </div>
 
-    <!-- Importação do arquivo JavaScript -->
+    <!-- importacao do arquivo JavaScript -->
     <script src="app.js"></script>
 </body>
 </html>

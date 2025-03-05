@@ -1,121 +1,130 @@
-/* Define o estilo global da página */
+/* define o estilo global da página */
 *{
     margin: 0px; 
-    font-family: 'Inter'; /* Define a fonte padrão */
+    font-family: 'Inter'; /* define a fonte padrão */
 }
 
-/* Estiliza o logo */
+/* estiliza o logo */
 #logo{
     margin: 60px 0px 0px 50px; 
 }
 
-/* Estiliza o título na parte superior */
+/* estiliza o título na parte superior */
 #superior-title{
     margin: 50px 0px 0px 150px; 
 }
 
-/* Estiliza o texto da parte superior */
+/* estiliza o texto da parte superior */
 #superior-text{
     margin: 35px 0px 100px 150px; 
 }
 
-/* Estiliza o menu superior */
+/* estiliza o menu superior */
 #menu-superior{
-    background-image: url(./images/fundo-menusuperior.svg); /* Define imagem de fundo */
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    color: aliceblue; /* Define a cor do texto */
+    background-image: url(./images/fundo-menusuperior.svg); /* define imagem de fundo */
+    background-size: cover; /* faz a imagem cobrir toda a área */
+    color: aliceblue; /* define a cor do texto */
     padding-bottom: 100px;
 }
 
-/* Estiliza o menu informacional */
+/* estiliza o menu informacional */
 #menu-informacional{
-    background-color: #EAECE5; /* Cor de fundo */
-    display: grid; /* Usa o modelo de grid */
-    grid-auto-flow: column; /* Organiza os elementos em colunas */
-    columns: auto; /* Ajusta as colunas */
+    background-color: #EAECE5; /* cor de fundo */
+    display: grid; /* usa o modelo de grid */
+    grid-auto-flow: column; /* organiza os elementos em colunas */
+    columns: auto; /* ajusta as colunas */
 }
 
-/* Estiliza os ícones */
+/* estiliza os ícones */
 .icone{
     margin: 50px 0px 50px 100px; 
     padding: 25px;
 }
 
-/* Estiliza os textos informacionais */
+/* estiliza os textos informacionais */
 .textoinformacional{
-    display: flex; /* Usa flexbox para alinhamento */
-    align-items: center; /* Centraliza verticalmente */
+    display: flex; /* usa flexbox para alinhamento */
+    align-items: center; /* centraliza verticalmente */
 }
 
-/* Seção do vídeo */
+/* seção do vídeo */
 #secao-video {
     display: grid;
     grid-auto-flow: column;
     columns: auto;
 }
 
-/* Estiliza o título do vídeo */
+/* estiliza o título do vídeo */
 #titulo-video {
     color: #247BA0;
     margin-top: 50px;
 }
 
-/* Estiliza o texto do vídeo */
+/* estiliza o texto do vídeo */
 #texto-video {
     color: #383838;
 }
 
-/* Define o espaçamento do vídeo */
+/* define o espaçamento do vídeo */
 #video {
     margin: 50px 25px 50px 100px;
 }
 
+/* estiliza o carrossel */
 #carrosel{
     background-color: #247BA0;
     padding: 50px;
 }
 
-
+/* estiliza o título do carrossel */
 #titulo-carrosel{
     color: white;
     text-align: center;
     font-size: 25px;
 }
 
+/* estiliza o container do carrossel */
 #cards-carrosel{
     margin-top: 30px;
     display: grid;
     grid-auto-flow: column;
 }
 
+/* estiliza os cards do carrossel */
 .card{
     margin-left: 50px;
 }
 
+/* estiliza as setas */
 .seta{
     margin-top: 30px;
     cursor: pointer;
 }
 
+/* define o estado inicial de visibilidade de 'bruna' */
 #bruna{
     display: none;
 }
 
+/* efeito de hover nas setas */
 .seta:hover{
-    transform:translatey(-7px);
-    transition-duration: 0.5s;
-}  
+    transform: translateY(-7px); /* move a seta para cima */
+    transition-duration: 0.5s; /* animação suave */
+}
 
+/* estiliza o formulário */
 #formulario{
     text-align: center;
 }
 
+/* estiliza o título do formulário */
 #titulo-formulario{
     font-size: 25px;
     margin-top: 15px;
     color: #383838;
 }
 
+/* estiliza os campos de entrada */
 input{
     background-color: #EAECE5;
     width: 300px;
@@ -126,6 +135,7 @@ input{
     border: 0px solid #EAECE5;
 }
 
+/* estiliza o botão de envio */
 button{
     background-color: #247BA0;
     color: white;
@@ -139,10 +149,11 @@ button{
     cursor: pointer;
 }
 
+/* efeito de hover no botão */
 button:hover{
     background-color: #318fb8;
     color: aliceblue;
-    transform: translateY(-7px);
-    box-shadow: 0px 15px 20px #0106176b;
-    transition-duration: 0.5s;
+    transform: translateY(-7px); 
+    box-shadow: 0px 15px 20px #0106176b; /* sombra ao redor do botão */
+    transition-duration: 0.5s; 
 }
