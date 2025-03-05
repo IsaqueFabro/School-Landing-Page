@@ -10,7 +10,9 @@ This repository contains the development of a **modern and responsive Landing Pa
   
 - **CSS3**: Advanced styling with Flexbox and Grid Layout
   
-- **JavaScript (ES6+)**: Interactive functionalities for a better user experience  
+- **JavaScript (ES6+)**: Interactive functionalities for a better user experience
+  
+- **Figma**: [Figma Design](https://www.figma.com/design/ylM6G4CFlKCNys2uS88VY3/%5BTECH%5D-Case-Mentorias---Landing-Page-DNC-School-(Copy)?node-id=0-1&p=f&t=dqw0KP1sWKGstIfc-0)
 
 ---  
 
