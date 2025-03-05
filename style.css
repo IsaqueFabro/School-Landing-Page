@@ -83,6 +83,7 @@
 }
 
 #cards-carrosel{
+    margin-top: 30px;
     display: grid;
     grid-auto-flow: column;
 }
@@ -92,9 +93,56 @@
 }
 
 .seta{
-    margin-top: 50%;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 #bruna{
     display: none;
+}
+
+.seta:hover{
+    transform:translatey(-7px);
+    transition-duration: 0.5s;
+}  
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin-top: 15px;
+    color: #383838;
+}
+
+input{
+    background-color: #EAECE5;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0px solid #EAECE5;
+}
+
+button{
+    background-color: #247BA0;
+    color: white;
+    font-weight: bolder;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: aliceblue;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0106176b;
+    transition-duration: 0.5s;
 }
