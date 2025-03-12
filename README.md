@@ -32,6 +32,13 @@ This repository contains the development of a **modern and responsive Landing Pa
 
 ---  
 
+## 🌍 Live Website  
+
+🚀 The Landing Page is available online at:  
+🔗 **[View Website](https://desafio-01-isaque-fabro.netlify.app/)**  
+
+---  
+
 ## 🗄️ Database Management  
 
 💾 This project uses **Sheet Monkey** to store and manage potential client data, including:  
@@ -63,4 +70,4 @@ This repository contains the development of a **modern and responsive Landing Pa
 
 📧 **Email**: isaquefabro04@gmail.com  
 
-📱 **Phone**: +55 (48) 99148-5200  
+📱 **Phone**: +55 (48) 99148-5200
